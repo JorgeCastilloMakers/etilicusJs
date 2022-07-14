@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etilicus JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form__container">
+            <div class="logo__container">
+                <img src="assets/logo-b.png" alt="">
+                
+            </div>
+            
+            <div class="order_container">
+                <h2>Realiza tu pedido</h2>
+                <form>
+                    <!-- <input type="text" placeholder="Agregar pedido..."> -->
+                    <select name="drinks" id="drinks">
+                        <option value="JS Ale (Blonde Ale)">JS Ale (Blonde Ale)</option>
+                        <option value="HTML Ale (Amber Ale)">HTML Ale (Amber Ale)</option>
+                        <option value="CSS Red Ale (Irish Red Ale)">CSS Red Ale (Irish Red Ale)</option>
+                        <option value="The DOM (Stout)">The DOM (Stout)</option>
+                        <option value="Function Session (Ipa)">Function Session (Ipa)</option>
+                        <option value="Deploy Session (Double Ipa)">Deploy Session (Double Ipa)</option>
+                        <option value="API Rest (Porter)">API Rest (Porter)</option>
+                    </select>
+                    <button class="btn-add">Agregar</button>
+                </form>
+            </div>
+            <div class="list_container">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="empty">
+                <p>No hay pedidos agregados</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
